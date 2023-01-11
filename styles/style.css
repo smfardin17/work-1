@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-button {
+    color: #005FAC;
+    background-color: #F8F8F8;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-title {
+    font-size: 40px;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px 0;
+    color: #444343;
+    line-height: 1.5;
+}
+
+/* Hero section styles */
+.hero-section {
+    background-image: url(../images/banner/banner3.png);
+    padding: 150px 150px 150px 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+.hero-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.white-description {
+    color: #F8F8F8;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 10px 0 20px 0;
+}
+
+/* Habit implements styles */
+.habit-implement {
+    padding: 100px 150px 50px 150px;
+}
+
+.habit-implement h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.habit-implement-container {
+    display: flex;
+}
+
+.habit-implement-box {
+    padding: 50px 25px;
+    background: #D4F1F4;
+    border-radius: 5px;
+    display: grid;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.habit-implement-box i {
+    font-size: 40px;
+}
+
+.habit-implement-title {
+    color: #151414;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0px 10px 0;
+}
+
+/* My Failures styles */
+.my-failures {
+    display: flex;
+    align-items: center;
+    padding: 100px 150px;
+}
+
+.my-failures img {
+    width: 350px;
+}
+
+.my-failures-right {
+    padding-left: 100px;
+}
+
+.my-failures-right li {
+    list-style-type: none;
+    margin: 15px 0;
+    color: #444343;
+}
+
+.icon-style {
+    color: #005FAC;
+    margin: 0 5px 0 0;
+}
+
+/* my plans styles */
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.my-plans {
+    text-align: center;
+    padding: 50px 150px;
+}
+
+.plan-title {
+    color: #151414;
+    font-size: 24px;
+}
+
+.plan-description {
+    color: #737272;
+    margin-top: 10px;
+    font-size: 16px;
+
+}
+
+/* Positive Mind Styles */
+.positive-mindset {
+    margin: 50px 150px;
+
+    background: linear-gradient(90deg, #005FAC, #f8f8f800), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 50px;
+    background-blend-mode: normal;
+    border-radius: 5px;
+}
+
+.white-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+/* footer section css */
+.footer-container {
+    background-color: #151414;
+    padding: 80px 150px;
+    display: flex;
+}
+
+.subscribe-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #F8F8F8;
+}
+
+.type-submit {
+    display: block;
+}
+
+.type-email input {
+    background-color: #151414;
+    border: 1px solid #F3F3F3;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0 10px 0;
+}
+
+::placeholder {
+    color: #F3F3F3;
+}
+
+.type-submit input {
+    color: #F8F8F8;
+    background-color: #005FAC;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-left {
+    padding-right: 100px;
+}
+
+.footer-left img {
+    width: 35px;
+    padding: 0 5px;
+}
+
+.footer-right {
+    margin-top: 20px;
+}
